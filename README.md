@@ -67,16 +67,16 @@ Berikut adalah dokumentasi tampilan antarmuka serta pengujian aplikasi sesuai ke
 <img src="/Toko/screenshots/ss1.png" alt="Form Input Produk" width="500">
 
 ### 2. Tampilan Detail Produk
-![Detail Produk](/Toko/screenshots/ss2.png)
+<img src="/Toko/screenshots/ss2.png" alt="Detail Produk" width="500">
 
 ### 3. Validasi: Nama Produk Kosong
-![Validasi Nama Kosong](/Toko/screenshots/ss3.png)
+<img src="/Toko/screenshots/ss3.png" alt="Validasi Nama Kosong" width="500">
 
 ### 4. Validasi: Harga Tidak Valid (≤ 0)
-![Validasi Harga](/Toko/screenshots/ss4.png)
+<img src="/Toko/screenshots/ss4.png" alt="Validasi Harga" width="500">
 
 ### 5. Tabel Daftar Produk
-![Tabel Daftar Produk](/Toko/screenshots/ss5.png)
+<img src="/Toko/screenshots/ss5.png" alt="Tabel Daftar Produk" width="500">
 
 ### 6. Fitur Pencarian Produk
-![Hasil Pencarian Produk](/Toko/screenshots/ss6.png)
+<img src="/Toko/screenshots/ss6.png" alt="Hasil Pencarian Produk" width="500">
