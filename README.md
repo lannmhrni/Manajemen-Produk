@@ -16,20 +16,73 @@ TokoApp adalah aplikasi desktop berbasis JavaFX dan Maven yang dikembangkan untu
 ---
 
 ## 🚀 Cara Menjalankan Aplikasi
+### 1. Clone Repository
 
-### Metode 1: Menggunakan Apache NetBeans IDE (Direkomendasikan)
-1. **Buka Project**:
-   - Jalankan NetBeans IDE.
-   - Pilih menu **File** > **Open Project...**, lalu arahkan ke folder proyek `Toko`.
-2. **Sinkronisasi Dependencies**:
-   - Klik kanan pada proyek **Toko** di panel kiri (*Projects*).
-   - Pilih **Reload Project** atau **Resolve Problems** jika ada notifikasi dependensi.
-3. **Clean & Build**:
-   - Klik kanan pada proyek **Toko** -> pilih **Clean and Build**.
-   - Tunggu hingga proses kompilasi selesai (`BUILD SUCCESS`).
-4. **Run Project**:
-   - Klik kanan pada proyek **Toko** -> pilih **Run**, atau tekan tombol **F6**.
-   - Aplikasi akan terbuka secara otomatis.
+Buka terminal atau Command Prompt, kemudian jalankan perintah berikut:
+
+```bash
+git clone https://github.com/lannmhrni/Manajemen-Produk.git
+```
+
+### 2. Masuk ke Direktori Project
+
+Setelah proses clone selesai, arahkan terminal ke folder proyek:
+
+```bash
+cd Toko
+```
+
+### 3. Periksa Instalasi Java dan Maven
+
+Pastikan JDK dan Maven sudah terpasang dengan menjalankan perintah:
+
+```bash
+java -version
+```
+
+```bash
+mvn -version
+```
+
+### 4. Buka Project
+Buka Apache NetBeans, kemudian pilih **File → Open Project**. Cari folder `Toko` yang sudah di-clone sebelumnya.
+
+### 5. Jalankan Aplikasi
+
+Buka terminal pada direktori utama proyek, kemudian jalankan perintah:
+
+```bash
+mvn clean javafx:run
+```
+
+Tunggu hingga proses build selesai. Jika berhasil, aplikasi Kalkulator BMI akan terbuka dan siap digunakan.
 
 ---
 
+## 📸 Tampilan Aplikasi
+
+Berikut adalah dokumentasi tampilan antarmuka serta pengujian aplikasi sesuai ketentuan tugas:
+
+### 1. Form Input Produk & Lampiran Gambar
+Tampilan form untuk menambahkan produk baru beserta fitur opsi lampiran gambar produk.
+![Form Input Produk](ss1.png)
+
+### 2. Tampilan Detail Produk
+Halaman detail yang menerima objek `Produk` terpilih dan menampilkan rincian data beserta gambar produk secara dinamis.
+![Detail Produk](ss2.png)
+
+### 3. Validasi: Nama Produk Kosong
+Aplikasi akan menolak input dan menampilkan pesan peringatan jika nama produk tidak diisi.
+![Validasi Nama Kosong](ss3.png)
+
+### 4. Validasi: Harga Tidak Valid (≤ 0)
+Aplikasi menolak data jika nominal harga bernilai nol atau negatif.
+![Validasi Harga](ss4.png)
+
+### 5. Tabel Daftar Produk
+Tabel menampilkan sekurang-kurangnya 3 produk yang berhasil ditambahkan ke dalam memori aplikasi.
+![Tabel Daftar Produk](ss5.png)
+
+### 6. Fitur Pencarian Produk
+Pencarian data produk berdasarkan kata kunci nama produk melalui tombol **Cari**.
+![Hasil Pencarian Produk](ss6.png)
