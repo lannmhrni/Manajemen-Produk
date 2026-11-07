@@ -64,8 +64,7 @@ Tunggu hingga proses build selesai. Jika berhasil, aplikasi Kalkulator BMI akan 
 Berikut adalah dokumentasi tampilan antarmuka serta pengujian aplikasi sesuai ketentuan tugas:
 
 ### 1. Form Input Produk & Lampiran Gambar
-Tampilan form untuk menambahkan produk baru beserta fitur opsi lampiran gambar produk.
-![Form Input Produk](ss1.png)
+![Form Input Produk](/Toko/screenshots/ss1.png)
 
 ### 2. Tampilan Detail Produk
 Halaman detail yang menerima objek `Produk` terpilih dan menampilkan rincian data beserta gambar produk secara dinamis.
