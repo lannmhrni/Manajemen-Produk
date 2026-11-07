@@ -67,21 +67,16 @@ Berikut adalah dokumentasi tampilan antarmuka serta pengujian aplikasi sesuai ke
 ![Form Input Produk](/Toko/screenshots/ss1.png)
 
 ### 2. Tampilan Detail Produk
-Halaman detail yang menerima objek `Produk` terpilih dan menampilkan rincian data beserta gambar produk secara dinamis.
-![Detail Produk](ss2.png)
+![Detail Produk](/Toko/screenshots/ss2.png)
 
 ### 3. Validasi: Nama Produk Kosong
-Aplikasi akan menolak input dan menampilkan pesan peringatan jika nama produk tidak diisi.
-![Validasi Nama Kosong](ss3.png)
+![Validasi Nama Kosong](/Toko/screenshots/ss3.png)
 
 ### 4. Validasi: Harga Tidak Valid (≤ 0)
-Aplikasi menolak data jika nominal harga bernilai nol atau negatif.
-![Validasi Harga](ss4.png)
+![Validasi Harga](/Toko/screenshots/ss4.png)
 
 ### 5. Tabel Daftar Produk
-Tabel menampilkan sekurang-kurangnya 3 produk yang berhasil ditambahkan ke dalam memori aplikasi.
-![Tabel Daftar Produk](ss5.png)
+![Tabel Daftar Produk](/Toko/screenshots/ss5.png)
 
 ### 6. Fitur Pencarian Produk
-Pencarian data produk berdasarkan kata kunci nama produk melalui tombol **Cari**.
-![Hasil Pencarian Produk](ss6.png)
+![Hasil Pencarian Produk](/Toko/screenshots/ss6.png)
