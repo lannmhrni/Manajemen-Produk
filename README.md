@@ -5,7 +5,7 @@ TokoApp adalah aplikasi desktop berbasis JavaFX dan Maven yang dikembangkan untu
 ---
 
 ## 📋 Fitur Utama
-1. **Form Tambah Produk**: Memungkinkan pengisian nama, kategori (Makanan/Minuman), dan harga produk.
+1. **Form Tambah Produk**: pengisian nama, kategori (Makanan/Minuman), dan harga produk.
 2. **Validasi Input**:
    - Nama produk tidak boleh kosong.
    - Harga produk harus lebih besar dari `0`.
@@ -32,22 +32,10 @@ Setelah proses clone selesai, arahkan terminal ke folder proyek:
 cd Toko
 ```
 
-### 3. Periksa Instalasi Java dan Maven
-
-Pastikan JDK dan Maven sudah terpasang dengan menjalankan perintah:
-
-```bash
-java -version
-```
-
-```bash
-mvn -version
-```
-
-### 4. Buka Project
+### 3. Buka Project
 Buka Apache NetBeans, kemudian pilih **File → Open Project**. Cari folder `Toko` yang sudah di-clone sebelumnya.
 
-### 5. Jalankan Aplikasi
+### 4. Jalankan Aplikasi
 
 Buka terminal pada direktori utama proyek, kemudian jalankan perintah:
 
@@ -55,7 +43,7 @@ Buka terminal pada direktori utama proyek, kemudian jalankan perintah:
 mvn clean javafx:run
 ```
 
-Tunggu hingga proses build selesai. Jika berhasil, aplikasi Kalkulator BMI akan terbuka dan siap digunakan.
+Tunggu hingga proses build selesai. Jika berhasil, aplikasi Manajemen Produk akan terbuka dan siap digunakan.
 
 ---
 
