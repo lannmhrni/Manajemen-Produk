@@ -61,8 +61,6 @@ Tunggu hingga proses build selesai. Jika berhasil, aplikasi Kalkulator BMI akan 
 
 ## 📸 Tampilan Aplikasi
 
-Berikut adalah dokumentasi tampilan antarmuka serta pengujian aplikasi sesuai ketentuan tugas:
-
 ### 1. Form Input Produk & Lampiran Gambar
 <img src="/Toko/screenshots/ss1.png" alt="Form Input Produk" width="500">
 
