@@ -1,0 +1,62 @@
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f6f9;
+}
+
+.header {
+    -fx-background-color: #ffffff;
+    -fx-padding: 16 24 16 24;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 1 0;
+    -fx-alignment: center-left;
+}
+
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.subtitle {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e;
+}
+
+.page {
+    -fx-padding: 24px;
+    -fx-alignment: top-center;
+    -fx-background-color: #063461;
+}
+
+.card {
+    -fx-background-color: #ffffff;
+    -fx-padding: 24px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 10, 0, 0, 2);
+    -fx-max-width: 500px;
+}
+
+.button-primary {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4px;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.button-primary:hover {
+    -fx-background-color: #3498db;
+}
+
+.muted {
+    -fx-text-fill: #7f8c8d;
+    -fx-font-size: 12px;
+}
+
+.error {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 13px;
+}
